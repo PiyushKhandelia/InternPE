@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Krishna Cuisine</title>
+        <link rel = "icon" type = "image/x-icon" href = "https://yt3.googleusercontent.com/ytc/AIdro_lkE2AJzpQNP5OwHu3alnxJOqTeuda1aF2WVlp7cJRZTks=s900-c-k-c0x00ffffff-no-rj">
+        <link rel = "stylesheet" href = "https://piyushkhandelia.github.io/InternPE/E-Commerce/krishnacuisine.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">Krishna Cuisine</div>
+                <ul class="nav-links">
+                    <li><a href="https://piyushkhandelia.github.io/InternPE/E-Commerce/krishnacuisine.html#home" onclick="showSection('home')">Home</a></li>
+                    <li><a href="https://piyushkhandelia.github.io/InternPE/E-Commerce/krishnacuisine.html#products" onclick="showSection('products')">Products</a></li>
+                    <li><a href="https://piyushkhandelia.github.io/InternPE/E-Commerce/krishnacuisine.html#about" onclick="showSection('about')">About</a></li>
+                    <li><a href="https://piyushkhandelia.github.io/InternPE/E-Commerce/krishnacuisine.html#contact" onclick="showSection('contact')">Contact</a></li>
+                </ul>
+                <div class="cart">
+                    <a href="https://piyushkhandelia.github.io/InternPE/E-Commerce/krishnacuisine.html#cart" onclick="showSection('cart')">Cart (0)</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <h1>Welcome to Krishna Cuisine</h1>
+                <p>Your one-stop shop for delicious vegetarian food!</p>
+                <div class="home-container">
+                    <img src="https://yt3.googleusercontent.com/ytc/AIdro_lkE2AJzpQNP5OwHu3alnxJOqTeuda1aF2WVlp7cJRZTks=s900-c-k-c0x00ffffff-no-rj" alt="Restaurant 1" class="home-image">
+                    <img src="https://i.ytimg.com/vi/K45I_vcUdpc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAKM54zf-FPmWcB8yOKSB6UopZKbQ" alt="Restaurant 2" class="home-image">
+                    <img src="https://scontent.fpat3-3.fna.fbcdn.net/v/t39.30808-6/371499939_720145240125940_4459867503353959189_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=pWtP102jAo8Q7kNvgGibKIQ&_nc_ht=scontent.fpat3-3.fna&oh=00_AYDkStYMlgFeQKlJNPl6yYVcKTIr6wuTkRY4wxkL9m37DQ&oe=666E6777" alt="Restaurant 3" class="home-image">
+                    <img src="https://scontent.fpat3-3.fna.fbcdn.net/v/t39.30808-6/358573522_690524876421310_604345988824307884_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6eD9L3Vz21cQ7kNvgF_BIZF&_nc_ht=scontent.fpat3-3.fna&oh=00_AYA40DD-WnMcHAXH9_taFfXNsrgjqju3sRd_SVyfuxiMkw&oe=666E6963" alt="Restaurant 4" class="home-image">
+                    <img src="https://scontent.fpat3-2.fna.fbcdn.net/v/t39.30808-6/350302949_1620027495177715_9217550141712944528_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xcs6sCORa5YQ7kNvgFgY3cc&_nc_ht=scontent.fpat3-2.fna&oh=00_AYCFNY6liW_22tZsgEHMdG37pdC4ztIEPfPR0GknLz6y6A&oe=666E640B" alt="Restaurant 5" class="home-image">
+                    <img src="https://scontent.fpat3-1.fna.fbcdn.net/v/t39.30808-6/358552338_690524893087975_1564017178818697623_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ifowCrayujsQ7kNvgFLF9jx&_nc_ht=scontent.fpat3-1.fna&oh=00_AYCn61X37gOPVTFlIfZmgenavElanT7-2PbY83IBeIT_Sw&oe=666E69C3" alt="Restaurant 6" class="home-image">
+                    <img src="https://scontent.fixr3-3.fna.fbcdn.net/v/t39.30808-6/343171445_758472525990633_4780347237228822096_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vALVnrciu4YQ7kNvgG1kjaD&_nc_ht=scontent.fixr3-3.fna&oh=00_AYC5v5UdEuynTdkpCvi23_3lditvBWyvjNpFmBrBbGeefw&oe=666E4ED8" alt="Restaurant 7" class="home-image">
+                    <img src="https://harekrishna.dk/wp-content/uploads/2020/10/prasadam.jpg" alt="Restaurant 8" class="home-image">
+                </div>
+            </section>
+            <section id="products" style="display:none;">
+                <h2>Our Products</h2>
+                <div class="product-grid">
+                    <!-- Products will be dynamically loaded here -->
+                </div>
+            </section>
+            <section id="about" style="display:none;">
+                <h2>About Us</h2>
+                <p>Welcome to Krishna Cuisine! Our mission is to bring you the best in vegetarian cuisine, inspired by the rich culinary traditions of India. Our journey began with a simple belief: food should be delicious, healthy, and made with love.</p>
+                <p>At Krishna Cuisine, we are committed to using only the freshest ingredients and traditional cooking methods to create dishes that are not only tasty but also nourishing. Our chefs are passionate about crafting meals that celebrate the flavors of India while catering to the diverse tastes of our customers.</p>
+                <p>We believe in sustainability and ethical practices. That's why we source our ingredients from local farmers and suppliers who share our values. Our goal is to provide you with a dining experience that is both satisfying and socially responsible.</p>
+                <p>Thank you for choosing Krishna Cuisine. We look forward to serving you and making your culinary journey a delightful one.</p>
+            </section>
+            <section id="contact" style="display:none;">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to get in touch with us.</p>
+                <h3>Address</h3>
+                <p>123 Vegetarian Lane, Foodie City, FC 45678</p>
+                <h3>Phone</h3>
+                <p>+91 98765 43210</p>
+                <h3>Email</h3>
+                <p><a href="mailto:info@krishnacuisine.com">info@krishnacuisine.com</a></p>
+                <h3>Follow Us</h3>
+                <p>Stay connected with us on social media:</p>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </section>
+            <section id="cart" style="display:none;">
+                <h2>Your Cart</h2>
+                <table class="cart-items">
+                    <thead>
+                        <tr>
+                            <th>S. No.</th>
+                            <th>Item</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Cart items will be dynamically loaded here -->
+                    </tbody>
+                </table>
+                <h3>Total: ₹<span id="cart-total">0.00</span></h3>
+                <button onclick="checkout()">Proceed to Checkout</button>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Krishna Cuisine. All rights reserved.</p>
+        </footer>
+        <script src="https://piyushkhandelia.github.io/InternPE/E-Commerce/krishnacuisine.js"></script>
+    </body>
+</html>

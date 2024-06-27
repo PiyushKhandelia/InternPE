@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 0.5rem;
+    background: #f8f8f8;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-actions button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.3rem 0.6rem;
+}
+
+.task-actions button:hover {
+    background: #c82333;
+}
+
+.edit-btn {
+    background: #ffc107;
+}
+
+.edit-btn:hover {
+    background: #e0a800;
+}
+
+.char-count {
+    font-size: 0.8rem;
+    color: #666;
+    text-align: right;
+}
+
+.char-count.red {
+    color: red;
+}
+
+.max-char-message {
+    font-size: 0.8rem;
+    color: red;
+    display: none;
+    text-align: right;
+}

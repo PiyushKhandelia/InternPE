@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List App</title>
+    <link rel="stylesheet" href="https://piyushkhandelia.github.io/InternPE/To_do_List/to_do_list.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TO-DO List</h1>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Enter a new task" required>
+            <input type="datetime-local" id="todo-datetime" required>
+            <textarea id="todo-description" placeholder="Enter a short description (max 200 characters)" maxlength="200"></textarea>
+            <div class="char-count" id="char-count">0/200 characters</div>
+            <div class="max-char-message" id="max-char-message">Max character limit reached!</div>
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="https://piyushkhandelia.github.io/InternPE/To_do_List/to_do_list.js"></script>
+</body>
+</html>
