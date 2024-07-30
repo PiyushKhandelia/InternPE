@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern PE Internship Projects</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }   
+
+        /* Center everything */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+        }
+        
+        /* Container */
+        .container {
+            margin-top: 15px;
+            height: 700px;
+            width: 95%;
+            background-color: white;
+            box-shadow: 8px 8px 20px rgb(128, 128, 128);
+            position: relative;
+            overflow: hidden;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        /* Admin Box */
+        .admin-box {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            grid-template-rows: repeat(2, auto); /* 2 rows */
+            gap: 20px;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Heading styling */
+        .heading {
+            text-align: center;
+            font: small-caps bold 30px/50px Georgia, serif;
+        }
+
+        /* Iframe styling */
+        dotlottie-player {
+            width: 100%; /* Set to 100% of the container */
+            height: 250px; /* Adjusted height */
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #f9f9f9;
+        }
+
+        /* Label styling */
+        .label {
+            font-weight: bold;
+            text-align: center;
+            font: small-caps bold 20px/35px Georgia, serif;
+            margin-top: 10px; /* Add some space between lottie-player and label */
+        }
+
+        /* Style <a> tag as none */
+        a {
+            text-decoration: none; /* Remove underline */
+            color: inherit; /* Inherit text color */
+            cursor: pointer; /* Change cursor to pointer */
+        }
+
+        sup {
+            color: #ff4d4d;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <!-- container div -->
+    <div class="container">
+        <p class="heading">InternPE Internship Projects</p>
+        <div class="admin-box">
+            <!-- Lottie player buttons -->
+            <a href="https://piyushkhandelia.github.io/InternPE/Calculator/calculator.html">
+                <dotlottie-player src="https://lottie.host/c7414589-a7bb-4199-96bc-4254aac63506/UN5voTvVLM.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+                <p class="label">Calculator</p>
+            </a>
+            <a href="https://piyushkhandelia.github.io/InternPE/Connect_Four/connect_four.html">
+                <dotlottie-player src="https://lottie.host/e499580c-aab3-48a5-85ac-3c8e61062941/QdA1TqtqZv.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+                <p class="label">Connect 4 Game</p>
+            </a>
+            <a href="https://piyushkhandelia.github.io/InternPE/E-Commerce/krishnacuisine.html">
+                <dotlottie-player src="https://lottie.host/cb50d1be-e6a0-4526-911b-c508ec1c07b6/UYXefND5Yb.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+                <p class="label">E-Commerce</p>
+            </a>
+            <a href="https://piyushkhandelia.github.io/InternPE/To_do_List/to_do_list.html">
+                <dotlottie-player src="https://lottie.host/4b93396b-6b9b-4292-871d-eb287b7aeed0/SheYuviNBf.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+                <p class="label">To do List</p>
+            </a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+</body>
+</html>
